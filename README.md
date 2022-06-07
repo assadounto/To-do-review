@@ -24,11 +24,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
--Local machine web browser
+-Local machine web browsergit@github.com:assadounto/To-do-review.git
 
 ### Setup
 
--clone the repository using (https://github.com/assadounto/To-Do-list/)
+-clone the repository using git@github.com:assadounto/To-Do-list/
 
 ### Install
 -Any HTML text approved editor, etc. VS Code, Brackets, Atom
