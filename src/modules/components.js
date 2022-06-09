@@ -18,7 +18,7 @@ export function listItemComponent({
   const node = document.createElement('li');
   node.classList.add('todo');
 
-  // Drag and Drop listeners
+  // Drag and Drop listener
   node.addEventListener('dragstart', (event) => {
     node.classList.add('dragging');
     setTimeout(() => {
