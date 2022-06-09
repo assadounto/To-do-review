@@ -15,27 +15,27 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <main>
+  <body class="flex">
+    <main class="flex">
       <section class="container">
-        <header class="list-header">
+        <header class="list-header flex">
           <h1 class="list-title color-gray">Today's To Do</h1>
         </header>
-        <form id="add-todo" class="input-form">
+        <form id="add-todo" class="input-form flex">
           <input placeholder="Add to your list..." class="add-todo-input"/>
-          <button class="icon-button refresh-button opacity-2" type="submit">
+          <button class="icon-button refresh-button opacity-2 flex" type="submit">
             <span class="material-icons">keyboard_return</span>
           </button>
         </form>
         <ul id="items"></ul>
-        <footer class="list-footer">
+        <footer class="list-footer flex">
           <button class="clear-button opacity-5" id="clear-btn" type="button">
             Clear all completed
           </button>
         </footer>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer flex">
     </footer>
   </body>
 </html>
