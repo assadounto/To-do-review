@@ -16,7 +16,7 @@ export function listItemComponent({
   index, description, completed, onToggle, onSwap, onEdit, onDelete,
 }) {
   const node = document.createElement('li');
-  node.classList.add('todo flex');
+  node.classList.add('todo');
 
   // Drag and Drop listeners
   node.addEventListener('dragstart', (event) => {

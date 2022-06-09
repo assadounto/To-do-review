@@ -101,6 +101,7 @@ button:active {
 
 .todo {
   position: relative;
+  display: flex;
   font-size: 1rem;
   padding-left: 15px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
