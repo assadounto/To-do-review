@@ -19,10 +19,9 @@ window.addEventListener('load', () => {
 
   store.onUpdate(() => {
     renderItems(store.todos);
-  });
-  store.onUpdate(() => {
     localStorage.setItem(STORE_KEY, JSON.stringify(store.todos));
   });
+
   const saved = localStorage.getItem(STORE_KEY);
   store.loadTodos(saved ? JSON.parse(saved) : []);
 });
